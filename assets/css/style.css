@@ -1,0 +1,94 @@
+* {
+    z-index: 2;
+    /* border: 1px solid red !important;  */
+}
+
+.bg {
+    background-image: url("http://mdbootstrap.com/img/Photos/Others/img%20(42).jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+.allen {
+    width: 20%;
+    height: 20%;
+    padding: 1%;
+    float: left;
+    margin-right: 1%;
+}
+h3 {
+    color: #4aaaa5;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #acaaaa;
+    font-size: 100%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+h4{
+    margin-right: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 2%;
+    padding-left: 5%;
+    float: left;
+    text-align: right;
+    white-space: nowrap;
+    font-weight: lighter;
+    color: #666666
+}
+.bgcenter {
+    background: white;
+    z-index: 1;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    
+}
+.zin2 {
+    position: absolute;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-width: 2px;
+    width: 100%;
+    padding-top: 1%;
+    background-color: #666666;
+    color: white;   
+    bottom: 0px;
+}
+.portimg {
+    text-align: center;
+    align-content: space-evenly;
+    position: static;
+    width: 80%;
+    height: 80%;
+    padding-top: 4%;
+    padding-right: 4%;
+}
+.imageribbon {
+    width: 76%;
+    height: 5%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    background-color: #4aaaa5;
+
+}
+button {
+    background: #4aaaa5;
+    color: white;
+    border: none;   
+    padding: 18px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+/* @ media (min-width: 250px)
+cols {
+    columns: 20;
+} */
